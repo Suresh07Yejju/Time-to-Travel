@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Time To Travel</title>
+  <link rel="stylesheet" type="text/css" href="css/task.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="shortcut icon" type="image/png" href="imgs/favicon.png">
+<link rel="shortcut icon" type="image/png" href="imgs/favicon.png">
+</head>
+<body>
+  
+<nav class="navbar navbar-light navbar-expand-sm" style="background:rgba(0,0,0,0.7)">
+  <div class="container">
+   <div class="dropdown">
+    <button type="button" class="btn btn-light" data-toggle="dropdown">
+      <i class="fa fa-bars"></i>
+    </button>
+       <div class="dropdown-menu" style="background-color:#5f7559;">
+       <a class="dropdown-item" href="services.html">Services</a>
+       <a class="dropdown-item" href="discounts.html">Discounts </a>
+       <a class="dropdown-item" href="review.html">Reviews</a>
+       <a class="dropdown-item" href="#">Gallary </a>
+       <a class="dropdown-item" href="#">Settings</a>
+    
+    </div>
+  </div>
+    <a class="navbar-brand text-light" href="index.html" data-aos="fade-left"><h4><span class="text-primary"> Time</span><span class="text-light">T</span>o<span class="text-light">T</span>ravel<i class="fas fa-bus ml-2" style="color:orange;"></i></h4></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sss" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+<div class="collapse navbar-collapse" id="sss">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active"  data-aos="fade-left" data-aos-delay="100">
+          <a class="nav-link text-light font-width  12" href="index.html" ><h5><i class="fa fa-home" aria-hidden="true" style="color:#3bf563"></i>Home</h5></a>
+        </li>
+       
+        <li class="nav-item" data-aos="fade-left" data-aos-delay="300">
+          <a class="nav-link text-light" href="travel.html"><h5><i class="fa fa-car" style="color:#ed071e"></i>Travel By</h5></a>
+        </li>
+        <li class="nav-item" data-aos="fade-left" data-aos-delay="300">
+          <a class="nav-link text-light" href="adobe.html"><h5><i class="fa fa-hotel"></i> Adobe</h5></a>
+        </li>
+        <li class="nav-item" data-aos="fade-left" data-aos-delay="200">
+          <a class="nav-link text-light" href="about.html"><h5><i class="fas fa-users mr-1" style="color:#effc38"></i> AboutUs</h5></a>
+        </li>
+        
+        <li class="nav-item" data-aos="fade-left" data-aos-delay="400">
+          <a class="nav-link text-light" href="contact.html"><h5><i class="fas fa-address-card" style="color:#3a40e8"></i> ContactUs</h5></a>
+        </li>
+        
+      
+
+ <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+  
+    <div class="modal-content">
+
+    
+      <div class="modal-c-tabs">
+
+      
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active bg-warning" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-warning" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Register</a>
+          </li>
+        </ul>
+
+      
+        <div class="tab-content">
+    
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+      
+            <div class="modal-body">
+              <div class="md-form form-sm">
+                <div>All Fields are Required</div>
+                <i class="fas fa-envelope prefix"></i>&nbsp;<label data-error="wrong" data-success="right" for="modalLRInput10"><strong>Your Phone Number</strong></label>
+                <input type="text" id="modalLRInput10" class="form-control form-control-sm validate" placeholder="Enter your Registered Phone Number">
+              </div>
+
+              <div class="md-form form-sm my-2">
+                <i class="fas fa-lock prefix"></i>&nbsp;
+                <label data-error="wrong" data-success="right" for="modalLRInput11"><strong>Your Password</strong></label>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate" placeholder="Enter your Password">
+                
+              </div>
+              <div class="mt-2">
+                <button class="btn btn-info">Log in <i class="fas fa-sign-in-alt ml-1"></i></button>
+              </div>
+            </div>
+          
+            <div class="modal-footer">
+              <div class="text-right">
+                <div class="mb-2">Not a member? Register Above</div>
+                <div>Forgot <a href="#">Password?</a></div>
+              </div>
+
+              <button type="button" class="btn btn-outline-info ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+      
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+      
+            <div class="modal-body">
+              <div class="md-form form-sm">
+                <div>All <sup class="text-danger">*</sup> Fields are Required</div>
+                <i class="fas fa-envelope prefix"></i>&nbsp;<label data-error="wrong" data-success="right" for="modalLRInput10"><strong>Your Phone Number <sup class="text-danger">*</sup> </strong></label>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" placeholder="Enter your Phone Number">
+              </div>
+
+              <div class="md-form form-sm my-2">
+                <i class="fas fa-lock prefix"></i>&nbsp;
+                <label data-error="wrong" data-success="right" for="modalLRInput11"><strong>Your Password <sup class="text-danger">*</sup></strong></label>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate" placeholder="Enter your Password">
+                
+              </div>
+
+              <div class="md-form form-sm my-2">
+                <i class="fas fa-lock prefix"></i>&nbsp;
+                <label data-error="wrong" data-success="right" for="modalLRInput11"><strong>Re-Enter Your Password <sup class="text-danger">*</sup></strong></label>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate" placeholder="Re-Enter Your Password">
+              </div>
+
+              <div class="md-form form-sm my-2">
+                <i class="fa fa-tag prefix"></i>&nbsp;
+                <label data-error="wrong" data-success="right" for="modalLRInput11"><strong>Referral Code, if any</strong></label>
+                <input type="text" id="modalLRInput11" class="form-control form-control-sm validate" placeholder="Enter your Referral Code (Optional)">
+                
+              </div>
+
+              <div class="mt-2">
+                <button class="btn btn-info" onclick="sup();">Sign Up <i class="fas fa-sign-in-alt ml-1"></i></button>
+              </div>
+            </div>
+        
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="text-center">
+  
+  <button class="btn btn-dark ml-5 p-2 " style="color:#eb1810" data-toggle="modal" data-target="#modalLRForm"><strong>Login/Register</strong></button> 
+
+</div>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="p-5">
+
+  <div class="container">
+  <div class="row">
+  <div class="container">
+  <div class="col-md-12">
+
+<h2 class="text-center">Price Comparison Chart of Other Travel Agencies with Our Agency</h2>
+<h3> International level charges</h3>
+  <div class="row">
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-left" >
+      <div class="card-head mt-3"><img class="w-25 d-block m-auto" src="images/logo.jpg">
+      </div>
+        <div class="card-body">
+        <strong class="text-center">TIME TO TRAVEL</strong>
+        <hr>
+        <p class="ml-5">FLIGHT</p>
+        <hr>
+        <p class="ml-5">TRAIN</p>
+        <hr>
+        <p class="ml-5">BUS</p><hr>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-3">
+  <div class="card w-100 d-block" data-aos="fade-down-left">
+      <div class="card-head mt-3" class="w-25  d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>10% FIRST CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;2,739</s><hr>
+        <s class="ml-5">&#8377;1973</s><hr>
+        <s class="ml-5">&#8377;997</s><hr>
+      </div>
+    </div>
+</div>
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-right">
+      <div class="card-head mt-3" class="w-25 d-block m-auto" >
+      </div>
+        <div class="card-body">
+        <b>20% SECOND CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;2,199</s><hr>
+        <s class="ml-5">&#8377;1,199</s><hr>
+        <s class="ml-5">&#8377;799</s><hr>
+      </div>
+    </div>
+</div>  
+<div class="col-md-3" data-aos="fade-down-right">
+  <div class="card">
+      <div class="card-head" class="w-50 d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>35% SWEEPER CLASS</b>
+        <hr>
+        <p class="ml-5">&#8377;2,009</p><hr>
+        <p class="ml-5">&#8377;1,000</p><hr>
+        <p class="ml-5">&#8377;600</p>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<h3> National level charges</h3>
+<div class="row">
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-left" >
+      <div class="card-head mt-3"><img class="w-25 d-block m-auto" src="images/logo.jpg">
+      </div>
+        <div class="card-body">
+        <strong class="text-center">TIME TO TRAVEL</strong>
+        <hr>
+        <p class="ml-5">FLIGHT</p>
+        <hr>
+        <p class="ml-5">TRAIN</p>
+        <hr>
+        <p class="ml-5">BUS</p><hr>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-3">
+  <div class="card w-100 d-block" data-aos="fade-down-left">
+      <div class="card-head mt-3" class="w-25  d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>10% FIRST CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;2,039</s><hr>
+        <s class="ml-5">&#8377;1473</s><hr>
+        <s class="ml-5">&#8377;897</s><hr>
+      </div>
+    </div>
+</div>
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-right">
+      <div class="card-head mt-3" class="w-25 d-block m-auto" >
+      </div>
+        <div class="card-body">
+        <b>20% SECOND CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;1,899</s><hr>
+        <s class="ml-5">&#8377;1,000</s><hr>
+        <s class="ml-5">&#8377;699</s><hr>
+      </div>
+    </div>
+</div>  
+<div class="col-md-3" data-aos="fade-down-right">
+  <div class="card">
+      <div class="card-head" class="w-50 d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>35% SWEEPER CLASS</b>
+        <hr>
+        <p class="ml-5">&#8377;1,209</p><hr>
+        <p class="ml-5">&#8377;969</p><hr>
+        <p class="ml-5">&#8377;500</p>
+
+      </div>
+    </div>
+</div>
+</div>
+
+
+<h3> State level charges </h3>
+<div class="row">
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-left" >
+      <div class="card-head mt-3"><img class="w-25 d-block m-auto" src="images/logo.jpg">
+      </div>
+        <div class="card-body">
+        <strong class="text-center">TIME TO TRAVEL</strong>
+        <hr>
+        <p class="ml-5">FLIGHT</p>
+        <hr>
+        <p class="ml-5">TRAIN</p>
+        <hr>
+        <p class="ml-5">BUS</p><hr>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-3">
+  <div class="card w-100 d-block" data-aos="fade-down-left">
+      <div class="card-head mt-3" class="w-25  d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>10% FIRST CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;1,639</s><hr>
+        <s class="ml-5">&#8377;973</s><hr>
+        <s class="ml-5">&#8377;567</s><hr>
+      </div>
+    </div>
+</div>
+  <div class="col-md-3">
+  <div class="card" data-aos="fade-up-right">
+      <div class="card-head mt-3" class="w-25 d-block m-auto" >
+      </div>
+        <div class="card-body">
+        <b>20% SECOND CLASS</b>
+        <hr>
+        <s class="ml-5">&#8377;1,199</s><hr>
+        <s class="ml-5">&#8377;999</s><hr>
+        <s class="ml-5">&#8377;599</s><hr>
+      </div>
+    </div>
+</div>  
+<div class="col-md-3" data-aos="fade-down-right">
+  <div class="card">
+      <div class="card-head" class="w-50 d-block m-auto">
+      </div>
+        <div class="card-body">
+        <b>35% SWEEPER CLASS</b>
+        <hr>
+        <p class="ml-5">&#8377;1509</p><hr>
+        <p class="ml-5">&#8377;800</p><hr>
+        <p class="ml-5">&#8377;400</p>
+
+      </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+</div></div></div></div></section>
+
+<button class="open-button bg-primary" onclick="openForm()">
+<i class="fa fa-comments" aria-hidden="true"></i>ChatNow
+</button>
+
+<div class="chat-popup" id="myForm">
+  <form class="form-container">
+    <div class="text-primary">
+      <div class="blink">
+   <span class="text-danger strong">T</span>ime<span class="text-danger">T</span>o<span class="text-primary">T</span>ravel is ready to <span class="text-danger strong">chat</span> with you</div>
+   </div>
+    <label for="msg"><b class="text-secondory">Enter your Query Here...</b></label>
+    <textarea placeholder="Type your message and click on send button" name="msg" required></textarea>
+
+    <button type="submit" class="btn"><i class="fa fa-paper-plane" aria-hidden="true">Submit</i></button>
+    <button type="button" class="btn cancel" onclick="closeForm()">
+      <i class="fa fa-arrow-left" aria-hidden="true">Cancel</i>
+    </button>
+  </form>
+</div>
+
+
+
+<footer class="page-footer font-medium color-dark mt-1">
+
+  <div style="background-color: black;">
+    <div class="container">
+
+      <div class="row py-4 d-flex align-items-center">
+
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0 text-white">Get connected with us on social networks!</h6>
+        </div>
+
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <a class="fb-ic"style="color: blue;" href="https://www.facebook.com/">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <a class="tw-ic" style="color: blue;"href="https://twitter.com/login?lang=en">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <a class="gplus-ic"style="color: blue;" href="https://aboutme.google.com/u/0/">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <a class="li-ic"style="color: blue;" href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic"style="color: blue;" href="https://www.instagram.com/">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container text-center text-md-left mt-5">
+
+    <div class="row mt-3">
+
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <h6 class="text-uppercase font-weight-bold"> Time To Travel</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Welcome to Time To Travel, Inc. We know that planning the trip of a lifetime is exciting. That's why we have set up this easy-to-use web site that allows you and your loved one to become familiar with many of our favorite romantic destinations.</p>
+
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <h6 class="text-uppercase font-weight-bold">Places</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!" style="color: blue;">East Zone</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">West Zone</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">North Zone</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">South Zone</a>
+        </p>
+
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <h6 class="text-uppercase font-weight-bold"> Aea of Location</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!"style="color: blue;">Sea Seneries</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">Mountains</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">Forest</a>
+        </p>
+        <p>
+          <a href="#!"style="color: blue;">Forts</a>
+        </p>
+
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> SR nagar,Hyderabad,Telangana</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> sureshyejju060@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> +091 9642 590 822</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> +091 7382  868 730</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-copyright text-center py-3"><h2>© 2020 Copyright</h2>
+    <a href="#"style="color: blue; font-style:italic;">
+   <h4><img src="images/suri07.jpg" height="80" width="100">Suresh Yejju</h4></a>
+  </div>
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<script src="js/fontawesome-all.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mdb.min.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval:7000,
+        pause:'hover',
+    });
+</script>
+
+<script>
+  AOS.init({
+    duration:2000,
+  });
+</script>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script>
+  function sup(){
+    alert("Successfully Signup");
+  };
+</script>
+
+</html>
